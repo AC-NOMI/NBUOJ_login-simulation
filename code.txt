@@ -1,11 +1,11 @@
-# -*- coding:utf-8 -*-
+# coding:utf-8
 import urllib
 import urllib2
 
 url = 'http://www.nbuoj.com/v8.8/Home/LoginDeal.php'
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
 ref = 'http://www.nbuoj.com/'
-values = {'uid':'yourid','password':'yourpassword','submit':'µÇÂ½'}
+values = {'uid':'146331384','password':'ati3736,','submit':'µÇÂ½'}
 headers = {'User-Agent':user_agent, 'Referer':ref}
 data = urllib.urlencode(values)
 request = urllib2.Request(url, data, headers)
